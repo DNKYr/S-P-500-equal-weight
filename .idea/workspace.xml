@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="add initial data into dataframe">
-      <change afterPath="$PROJECT_DIR$/constituents.csv" afterDir="false" />
+    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="Change input csv for outdated data. Adding loop to iterate through all constituents.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
@@ -126,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728614453713</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change input csv for outdated data. Adding loop to iterate through all constituents.">
+      <option name="closed" value="true" />
+      <created>1728668742937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728668742937</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +144,7 @@
     <MESSAGE value="Get market cap and price and parse those" />
     <MESSAGE value="Switch to yFinance. Remove Alpha Vantage API" />
     <MESSAGE value="add initial data into dataframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial data into dataframe" />
+    <MESSAGE value="Change input csv for outdated data. Adding loop to iterate through all constituents." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change input csv for outdated data. Adding loop to iterate through all constituents." />
   </component>
 </project>
