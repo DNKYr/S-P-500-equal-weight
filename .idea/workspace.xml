@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="Change input csv for outdated data. Adding loop to iterate through all constituents.">
+    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="Calculate how much share to buy for each constitutent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728668742937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Calculate how much share to buy for each constitutent">
+      <option name="closed" value="true" />
+      <created>1728670517969</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728670517969</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +153,7 @@
     <MESSAGE value="Switch to yFinance. Remove Alpha Vantage API" />
     <MESSAGE value="add initial data into dataframe" />
     <MESSAGE value="Change input csv for outdated data. Adding loop to iterate through all constituents." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change input csv for outdated data. Adding loop to iterate through all constituents." />
+    <MESSAGE value="Calculate how much share to buy for each constitutent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate how much share to buy for each constitutent" />
   </component>
 </project>
