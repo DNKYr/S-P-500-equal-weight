@@ -14,14 +14,17 @@ We are gonna used it to called API in the library in this project
 xlsxwriter: A easy wat to store excel document from a python script
 
 math: basic library provide mathematical functions
+
+yfinance: open source python package for public available api on yahoo finance
 '''
-#import library
+#library
 
 import numpy as np
 import pandas as pd
 import requests
 import xlsxwriter
 import math
+import yfinance as yf
 
 
 '''
@@ -32,25 +35,15 @@ or, I can use directionary path to called the csv
 #read the stock list
 stocks = pd.read_csv('sp_500_stocks.csv')
 
-#stored 'secret' API keys
-from Secret import Alpha_Vantage_API
 
 #first call API
 symbol = 'AAPL'
 
 #Get market cap
-function1 = 'OVERVIEW'
-api_url1 = f'https://www.alphavantage.co/query?function={function1}&symbol={symbol}&apikey={Alpha_Vantage_API}'
-data_generalinfo = requests.get(api_url1).json()
+AAPL = yf.Ticker(symbol)
 
 #get price
-function2 = 'GLOBAL_QUOTE'
-api_url2 = f'https://www.alphavantage.co/query?function={function2}&symbol={symbol}&apikey={Alpha_Vantage_API}'
-data_globalquote = requests.get(api_url2).json()
+price = AAPL.info['bid']
 
-#parse market cap
-market_capitalization = data_generalinfo['MarketCapitalization']
-
-#parse price
-global_quote = data_globalquote['Global Quote']
-price = global_quote['05. price']
+#get market cap
+market_cap = AAPL.info['marketCap']
