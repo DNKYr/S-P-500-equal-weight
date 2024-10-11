@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="Initial commit, add library and note">
+    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="Add S&amp;P component csv doc, and variable to hold it">
+      <change afterPath="$PROJECT_DIR$/Secret.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +47,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.venv" />
       <recent name="$PROJECT_DIR$/.venv/CSV documents" />
       <recent name="$PROJECT_DIR$/.venv/lib" />
       <recent name="$PROJECT_DIR$/.venv/lib/CSV documents" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -76,12 +78,29 @@
       <option name="project" value="LOCAL" />
       <updated>1728580166102</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit, add library and note">
+      <option name="closed" value="true" />
+      <created>1728581500144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728581500144</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add S&amp;P component csv doc, and variable to hold it">
+      <option name="closed" value="true" />
+      <created>1728581547188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728581547188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit, add library and note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, add library and note" />
+    <MESSAGE value="Add S&amp;P component csv doc, and variable to hold it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add S&amp;P component csv doc, and variable to hold it" />
   </component>
 </project>

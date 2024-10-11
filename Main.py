@@ -31,3 +31,26 @@ or, I can use directionary path to called the csv
 '''
 #read the stock list
 stocks = pd.read_csv('sp_500_stocks.csv')
+
+#stored 'secret' API keys
+from Secret import Alpha_Vantage_API
+
+#first call API
+symbol = 'AAPL'
+
+#Get market cap
+function1 = 'OVERVIEW'
+api_url1 = f'https://www.alphavantage.co/query?function={function1}&symbol={symbol}&apikey={Alpha_Vantage_API}'
+data_generalinfo = requests.get(api_url1).json()
+
+#get price
+function2 = 'GLOBAL_QUOTE'
+api_url2 = f'https://www.alphavantage.co/query?function={function2}&symbol={symbol}&apikey={Alpha_Vantage_API}'
+data_globalquote = requests.get(api_url2).json()
+
+#parse market cap
+market_capitalization = data_generalinfo['MarketCapitalization']
+
+#parse price
+global_quote = data_globalquote['Global Quote']
+price = global_quote['05. price']
