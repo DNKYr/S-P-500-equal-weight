@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="Get market cap and price and parse those">
+    <list default="true" id="7c7ce1ed-ce43-47d8-b68a-036c2e01e8a7" name="Changes" comment="Switch to yFinance. Remove Alpha Vantage API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
@@ -109,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728606601148</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Switch to yFinance. Remove Alpha Vantage API">
+      <option name="closed" value="true" />
+      <created>1728608721460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728608721460</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +126,7 @@
     <MESSAGE value="Add S&amp;P component csv doc, and variable to hold it" />
     <MESSAGE value="Add secret file to store api key" />
     <MESSAGE value="Get market cap and price and parse those" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get market cap and price and parse those" />
+    <MESSAGE value="Switch to yFinance. Remove Alpha Vantage API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch to yFinance. Remove Alpha Vantage API" />
   </component>
 </project>

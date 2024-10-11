@@ -47,3 +47,13 @@ price = AAPL.info['bid']
 
 #get market cap
 market_cap = AAPL.info['marketCap']
+
+#adding stock data to pandas dataframe
+my_columns = ['Ticker', 'Price', 'Market Capitalization', 'Number of Shares to Buy']
+final_dataframe = pd.DataFrame(columns = my_columns)
+
+print(final_dataframe)
+#append into final_dataframe
+final_dataframe = pd.concat([final_dataframe,pd.DataFrame([[symbol,price,market_cap,'N/A']],columns=my_columns)])
+
+print(final_dataframe)
