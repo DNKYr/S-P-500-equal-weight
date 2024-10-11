@@ -33,7 +33,7 @@ for csv in the same level: use name
 or, I can use directionary path to called the csv
 '''
 #read the stock list
-stocks = pd.read_csv('sp_500_stocks.csv')
+stocks = pd.read_csv('constituents.csv')
 
 
 #first call API
@@ -50,10 +50,13 @@ market_cap = AAPL.info['marketCap']
 
 #adding stock data to pandas dataframe
 my_columns = ['Ticker', 'Price', 'Market Capitalization', 'Number of Shares to Buy']
-final_dataframe = pd.DataFrame(columns = my_columns)
 
-print(final_dataframe)
-#append into final_dataframe
-final_dataframe = pd.concat([final_dataframe,pd.DataFrame([[symbol,price,market_cap,'N/A']],columns=my_columns)])
 
-print(final_dataframe)
+#looping through the stock list
+L = []
+for stock in stocks['Symbol']:
+    data = yf.Ticker(stock).info
+    save_serie = pd.Series([stock, data['bid'], data['marketCap'], 'N/A'], index = my_columns)
+    L.append(save_serie)
+final_dataframe = pd.DataFrame(L)
+
